@@ -1,0 +1,181 @@
+.sidebar {
+    display: none;
+    height: 100vh;
+    width: 40%;
+    background-color: black;
+    color: white;
+    position: absolute;
+    top: 0;
+    z-index: 3;
+    font-size: 22px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+  }
+  .burgur {
+    z-index: 3;
+    border: none;
+    background-color: none;
+    margin-left: 5%;
+    font-size: 7vw;
+    color: white;
+  }
+  
+
+
+  .sidebar > ul {
+    width: max-content;
+    display: inline-block;
+    padding: 10% 40% 10% 40%;
+  }
+  
+  .active {
+    display: block;
+  }
+  
+  .bar {
+    display: none;
+  }
+  
+  .Appbar {
+    display: block;
+    background-color: rgba(24, 24, 24, 0.672)!important;
+   
+    z-index: 3!important;
+  }
+
+  .links{
+    position: absolute;
+    right: 10%;
+    font-weight: 500;
+    font-size: 18px;
+    color:white!important;
+  }
+
+  .offcanvaslink{
+    display:list-item;
+    text-align: center;
+    color: white;
+    right: 10%;
+    font-weight: 500;
+    font-size: 18px;
+    color:white!important;
+
+    
+  }
+
+  .navlink{
+    list-style: none;
+    color: white;
+    font-size: 20px;
+  }
+
+  .navlink:hover{
+    color: rgb(106, 104, 104);
+  }
+  .Link {
+    text-decoration: none;
+    color: rgba(255,255,255,.55);
+  }
+  .Link:hover {
+    text-decoration: none;
+    color: rgba(255,255,255,.75);
+  }
+  .canvas{
+    background-color: rgb(24, 24, 24);
+    color:white;
+    width: 75%;
+  }
+
+  .cross{
+   color: white;
+  }
+
+  .HeaderCAnvas{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+  }
+
+  .Follow_me{
+    position: fixed;
+    top: 30%;
+    text-decoration: none;
+    list-style: none;
+    z-index: 20!important;
+    width: min-content;
+  }
+  .ul{
+    text-decoration: none;
+    list-style: none;
+  }
+
+  .Follow{
+    color: grey;
+    font-size: 8px;
+    margin-left: 5px;
+  }
+  .social_media{
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+    text-align: center;
+   
+  }
+
+  .facebook{
+    background-color: #3b5998;
+  }
+  .githubicon{
+    background-color: #1a1818;
+  }
+  .twitter{
+    background-color: #1da1f2;
+  }
+  .linked{
+    background-color: #0a66c2;
+  }
+  .instagram{
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+  }
+
+  .textdeco{
+    text-decoration: none;
+    color: white;
+
+  }
+
+  .textdeco:hover{
+    color: white;
+  
+  }
+
+  
+  @media screen and (max-width: 800px) {
+    .Appbar {
+      display: none !important;
+    }
+    .bar {
+      display: block;
+    }
+    .burgur{
+      position:absolute;
+      left: 10%;
+      right: 80%;
+      font-size: 30px;
+    }
+    .social_media{
+      width: 40px;
+      height: 40px;
+      font-size: 25px;
+     
+    }
+
+    .Follow_me{
+      right: 0;
+    }
+    .Follow{
+      margin-right: 8px;
+    }
+  }
+  

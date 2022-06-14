@@ -1,0 +1,80 @@
+.firstcontainer{
+    margin-top: 90px;
+}
+.Procontainer{
+    height: max-content;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    width: 70%;
+    
+}
+
+
+  .Josefin{
+      font-family: 'Josefin';
+      font-size: 20px;
+      color: grey;
+  }
+
+  .Rowdies{
+      font-family: 'Rowdies';
+      font-size: 36px;
+      color: rgb(211, 211, 211);
+  }
+
+  .CRow{
+    width: 100%;
+  }
+
+  .default{
+      margin-top: 15px;
+  }
+
+  .crsouel{
+      height: 400px;
+  }
+
+  .gitttdiv{
+     position: relative;
+     
+  }
+
+  @media screen and (max-width: 800px) {
+    .Procontainer{
+        height: max-content;
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        width: 100%;
+        
+    }
+
+    .Josefin{
+        font-family: 'Josefin';
+        font-size: 16px;
+        color: grey;
+        
+    }
+  
+    .Rowdies{
+        font-family: 'Rowdies';
+        font-size: 20px;
+        color: rgb(211, 211, 211);
+        
+    }
+
+    .crsouel{
+        height: 200px;
+    }
+
+    .default{
+        margin-bottom: 60px;
+    }
+    .maincc{
+        width: 100%!important;
+    
+    }
+
+   }

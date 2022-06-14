@@ -1,0 +1,283 @@
+.bgtext{
+    color: rgba(128, 128, 128, 0.09);
+    font-weight: 800;
+    font-size: 25vw;
+    top:25%;
+    position:absolute;
+    
+}
+
+.Studyman{
+    width: 400px;
+    margin-top: 25%;
+    user-select: none;
+}
+
+.hi{
+    font-size: 30px;
+    position: absolute;
+    left: 8%;
+    top: 10%
+
+}
+
+.vikas{
+    color: rgb(76, 99, 250);
+}
+
+.font{
+    font-family: 'Poppins', sans-serif;   
+}
+
+.bgdiv{
+    overflow: hidden !important;
+    user-select: none;
+
+    
+}
+
+.iwrite{
+    margin-top: 8%;
+    margin-left: 18%;
+    position: relative;
+    user-select: none;
+}
+
+.write{
+    font-size: 200px;
+}
+.myprolink{
+    text-decoration: none!important;
+    color: white!important;
+}
+
+
+@keyframes blinkingText{
+    0% {
+        color: var(--txt);
+      }
+      49% {
+        color: var(--txt);
+      }
+      60% {
+        color: transparent;
+      }
+      99% {
+        color: transparent;
+      }
+      100% {
+        color: var(--txt);
+      }
+}
+.span{
+    left: -5%;
+    width: 45px;
+    height: 45px;
+    animation: blinkingText 1.2s infinite;
+    animation-duration: 1.2s;
+    animation-timing-function: ease;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    animation-play-state: running;
+    animation-name: blinkingText;
+}
+
+.language{
+   display: flex;
+    margin-left: 12vw;
+}
+
+.Con{
+    margin-top: 10%!important;
+
+}
+
+.Aboutme{
+    height: max-content;
+    user-select: none;
+}
+
+.btnrow{
+    margin-top: 10%!important;
+    width: max-content;
+    margin-left: 15%!important;
+}
+
+.contect{
+    display: flex;
+    float: right;
+    background-color: rgba(74,137,231)!important;
+    color: black!important;
+    font-weight: bold!important;
+}
+
+.resume{
+    display: flex;
+    float: left;
+    width: max-content;
+    background-color: #0f1a2e!important;
+    color: rgba(74,137,231)!important;
+    font-weight: bold!important;
+}
+
+.seemore{
+    display: flex;
+    float: right;
+}
+
+.about{
+    color: rgba(74,137,231);
+}
+
+.alittle{
+    font-weight: bold;
+    font-size: 20px;
+    color: grey;
+}
+
+.me{
+    font-size: 20px;
+    color: grey;
+    padding-right: 5%!important;
+    word-spacing: 12px;
+    font-weight: 600;
+}
+
+.productdiv{
+    width: 350px;
+    height: 150px;
+    border-radius: 5px;
+    margin-top: 2%;
+}
+
+.div1{
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,0.75) 0%,
+     rgba(35,198,158,1) 48%, rgba(45,119,253,0.7) 98%);   
+    
+}
+.div2{
+    background: rgb(244,254,164);
+    background: linear-gradient(0deg, rgba(244,254,164,0.75) 0%, rgba(244,142,15,0.7) 100%);
+}
+.div3{
+    background: rgb(164,231,254);
+    background: linear-gradient(0deg, rgba(164,231,254,0.75) 0%, rgba(144,255,63,0.7) 100%);
+}
+.div4{
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,0.75) 0%, rgba(35,198,158,0.75) 48%, rgba(45,119,253,0.7) 98%);       
+}
+
+.div1 > h6 {
+     
+    margin: 0;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+      z-index: 2!important;
+}
+.div2 > h6 {
+    margin: 0;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.div3 > h6 {
+    margin: 0;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.div4 > h6 {
+    margin: 0;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;  
+}
+
+.git{
+    margin-top: 70px;
+}
+.github{
+    
+    width: 100%!important;
+} 
+
+
+@media screen and (max-width: 800px){
+    .Studyman{
+        width: 300px; 
+        position: relative;
+       display: flex;
+       float: right;
+    }
+    .bgtext{
+        
+        font-size: 30vw;
+        top:15%;
+     
+    }
+    
+    .iwrite{
+        margin-top: 10%;
+        margin-left: 7%;
+        position: relative;
+    }
+    
+    .write{
+        font-size: 120px;
+    }
+    
+    .hi{
+        font-size: 18px;
+        position: absolute;
+        left: 7.5%;
+        top: 7.8%
+    
+    }
+
+    .Colgr{
+        margin-top: 40px!important;
+    }
+
+    .productdiv{
+        width: 170px;
+        height: 100px;
+        border-radius: 4%;
+        margin-top: 5%;
+    }
+.gittext{
+    font-size: 18px!important;
+}
+
+.github{
+      margin-top: 20px!important;
+      width: 100%!important;
+      
+  }  
+  .git{
+      overflow: scroll;
+      
+
+  }
+
+  .gith{
+    width: 1000px!important;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+}
+    
+    
+}
+

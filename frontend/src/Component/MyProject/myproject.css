@@ -1,0 +1,104 @@
+.ppCol{
+    height: 250px;
+    margin: 10px;
+    padding: 0;
+    text-align: center;
+    cursor: pointer;
+    position: relative;
+    
+}
+
+.githubpp{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100px;
+    height: 100px;
+}
+
+.dot{
+    position: absolute;
+}
+
+.title{
+    color: grey;
+    font-weight: bold;
+}
+.link{
+    text-decoration: none;
+}
+.imagedivpp{
+    width: 100%;
+    height: 90%;
+}
+.imagedivpp > img{
+    width: 100%;
+    height: 100%;
+}
+
+
+.red{
+    border-radius: 50%;
+    background-color: #ff5f57;
+    width: 12px;
+    height: 12px;
+    top:5px;
+    left: 10px;
+}
+.yellow{
+    border-radius: 50%;
+    background-color: #ffbd2e;
+    width: 12px;
+    height: 12px;
+    top:5px;
+    left: 30px;
+}
+.green{
+    border-radius: 50%;
+    background-color: #28ca41;
+    width: 12px;
+    height: 12px;
+    top:5px;
+    left: 50px;
+}
+
+.ppRow{
+    justify-content: center;
+    padding-top: 25px;
+    color: grey!important;
+    
+}
+
+.header{
+    width: 100%;
+    height: 10%;
+    background-color: #ddd;
+    position: relative;
+}
+
+.textali{
+    text-align: center;
+}
+
+
+.small{
+    font-size: 12px;
+}
+
+@media screen and (max-width: 800px) { 
+    .ppRow {
+        padding-top: 25px;
+        padding-right: 25px;
+        padding-left: 25px;
+        color: grey!important;
+    }
+
+    .ppCol{
+        height: 240px;
+        
+    }
+    
+    .lastrow{
+        margin-bottom: 40px;
+    }
+}

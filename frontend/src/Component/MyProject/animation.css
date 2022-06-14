@@ -1,0 +1,75 @@
+.aws-btn {
+
+    --button-default-height: 45px;
+    --button-default-font-size: 14px;
+    --button-default-border-radius: 2px;
+    --button-horizontal-padding: 10px;
+    --button-raise-level: 5px;
+    --button-hover-pressure: 2.5;
+    --transform-speed: 0.3s;
+    --button-primary-color: #00ffff;
+    --button-primary-color-dark: #1c7d7d;
+    --button-primary-color-light: #000000;
+    --button-primary-color-hover: #00ffff;
+    --button-primary-border: 0px solid #767676;
+    --button-secondary-color: #fffc6c;
+    --button-secondary-color-dark: #b9b500;
+    --button-secondary-color-light: #6c6a00;
+    --button-secondary-color-hover: #fffb3e;
+    --button-secondary-border: none;
+    --button-anchor-color: #f3c8ad;
+    --button-anchor-color-dark: #734922;
+    --button-anchor-color-light: #4c3016;
+    --button-anchor-color-hover: #f1bfa0;
+    --button-anchor-border: 1px solid #8c633c;
+    }
+
+    .Box{
+       
+        width: 200px;
+        text-align: center;
+        font-size: medium;
+        font-weight: 700;
+      
+        
+    }
+
+    .gittt{
+        width: auto;
+        text-align: center;
+        font-size: medium;
+        font-weight: 700;
+        position: absolute;
+        right: 5%;
+    }
+    .ptext{
+     
+        margin-top: 1px;
+        color: #000000;
+    }
+
+    @media screen and (max-width: 800px) { 
+        .Box{
+       
+            width: max-content;
+            text-align: center;
+            font-size: 12px;
+            font-weight: 600;
+          
+            
+        }
+    
+        .gittt{
+            width: max-content;
+            text-align: center;
+            font-size: medium;
+            font-weight: 600;
+            position: absolute;
+            right: 5%;
+        }
+        .ptext{
+         
+            margin-top: 1px;
+            color: #000000;
+        }
+    }

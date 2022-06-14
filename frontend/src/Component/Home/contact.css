@@ -1,0 +1,34 @@
+
+.imagecol{position: relative;}
+
+.letter{
+    width: 100%;
+   height: 100%;
+    
+}
+
+
+.contactdiv{
+    padding-top: 100px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    border-top:0.01ex solid rgb(226, 226, 226) ;
+       
+}
+
+.message{
+    height: 150px;
+}
+
+.fon{
+    color: rgb(175, 175, 175)!important;
+}
+.place{
+    background-color: rgb(31, 31, 31)!important;
+    border: none!important;
+    
+}
+.submit{
+    background-color: #0d6dfd69!important;
+    
+}

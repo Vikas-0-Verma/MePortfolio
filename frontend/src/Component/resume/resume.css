@@ -1,0 +1,29 @@
+.sresume{
+    width: 100%;
+    height: max-content;
+   
+}
+.myresume{
+    font-size: 100px;
+}
+
+.iframeresume{
+    display: block!important;
+    width: 100%;
+    height: 1000px;
+}
+.paperd{
+    width: 250px;
+}
+
+@media screen and (max-width: 800px) {
+    .myresume{
+        font-size: 50px;
+    }
+
+    .iframeresume{
+        display: block!important;
+        width: 100%;
+        height: 500px;
+    }
+}

@@ -1,0 +1,35 @@
+.footer {
+  background-color: rgba(24, 24, 24, 0.672)!important;
+  width: 100%;
+  height: max-content;
+  margin-left: 0;
+}
+
+.footer > img {
+   position: relative;
+   padding-top: 15px;
+   padding-bottom: 15px;
+  }
+
+  .ptext{
+    color: rgb(126, 126, 126);
+    font-size: 14px;
+    /* left: 45%; */
+    position: relative;
+    margin-bottom: 0%;
+    justify-self: center;
+  }
+
+  .text{
+    text-align: center;
+    position: relative;
+    padding-bottom: 1%;
+  }
+
+
+  @media screen and (max-width: 800px) {
+    .footer{
+      position: fixed;
+      bottom: 1%;
+    }
+  }
